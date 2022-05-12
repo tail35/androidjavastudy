@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 import com.example.javaandjnistudy.databinding.ActivityMainBinding;
+import com.example.mymodule.*;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -26,6 +27,8 @@ public class MainActivity extends AppCompatActivity {
         // Example of a call to a native method
         TextView tv = binding.sampleText;
         tv.setText(stringFromJNI());
+        mymain lmymain = new mymain();
+        lmymain.myPrint();
     }
 
     /**

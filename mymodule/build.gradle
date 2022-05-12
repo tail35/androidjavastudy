@@ -26,7 +26,7 @@ android {
 }
 
 dependencies {
-
+    //implementation 'com.weimiao.appsdk.android:mymodluetest:1.0.0'
     implementation 'androidx.appcompat:appcompat:1.3.0'
     implementation 'com.google.android.material:material:1.4.0'
     testImplementation 'junit:junit:4.13.2'

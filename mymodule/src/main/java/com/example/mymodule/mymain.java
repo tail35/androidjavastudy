@@ -5,6 +5,6 @@ public class mymain
 
     public void myPrint()
     {
-        System.out.println("111");
+        System.out.println("my111");
     }
 }

@@ -10,8 +10,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url 'https://maven.aliyun.com/nexus/content/repositories/releases' }
+        maven { url 'https://nexus.weimiaocaishang.com/repository/maven-releases/' }
     }
 }
 rootProject.name = "javaandjnistudy"
 include ':app'
-include ':mymodule'
+//include ':mymodule'
